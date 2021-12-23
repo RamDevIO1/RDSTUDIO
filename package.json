@@ -1,12 +1,12 @@
 {
-  "name": "bloggin-site",
+  "name": "RDSTUDIO",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "RamDev",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",

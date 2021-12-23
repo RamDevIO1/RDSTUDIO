@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    
+}
+
+::selection{
+    background: rgb(197,232,235);
+    color: #fff;
+}
+
+.navbar {
+  background: #008efa;
+}
+
+.header{
+    /*margin-top: 60px;*/
+    width: 100%;
+    height: 500px;
+    background: url(./img/img-h1.jpg);
+    background-size: cover;/*
+    background-color: rgb(253,114,47);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.heading{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 80px;
+    /*line-height: 60px;
+    margin-bottom: 80px;*/
+}
+
+.heading .small{
+    display: block;
+    font-size: 40px;
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+
+.posts-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.post-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.post-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
+
+.page-section-heading {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 2.1rem;
+  font-size: 2.25rem;
+  /*line-height: 2rem;*/
+}
+
+.btn {
+  width: 100px;
+}
+a {
+text-decoration: none;
+}
+footer {
+  /*
+      margin-top: 120px;*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #008efa;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+.heading{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 50px;
+    /*line-height: 60px;
+    margin-bottom: 80px;*/
+}
+.heading .small{
+    display: block;
+    font-size: 30px;
+}
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.posts-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 80px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}
